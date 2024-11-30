@@ -116,7 +116,6 @@ h1 {
   padding-right: 25%;
   flex-wrap: wrap;
   padding-bottom: 100px;
-  background-color: green;
 }
 
 .card1,
@@ -124,4 +123,23 @@ h1 {
 .card3,
 .card4 {
   width: 400px;
+}
+
+.container-section3 p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#section4 {
+  background-image: url("assets/pexels-cowomen-1058097-2041627.jpg");
+  background-repeat: no-repeat;
+  background-size: 3000px;
+}
+
+.container-section4 {
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 300px;
+  padding-bottom: 300px;
+  text-align: center;
 }
