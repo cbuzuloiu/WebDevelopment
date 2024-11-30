@@ -134,6 +134,7 @@ h1 {
   background-image: url("assets/pexels-cowomen-1058097-2041627.jpg");
   background-repeat: no-repeat;
   background-size: 3000px;
+  opacity: 09;
 }
 
 .container-section4 {
@@ -142,4 +143,28 @@ h1 {
   padding-top: 300px;
   padding-bottom: 300px;
   text-align: center;
+}
+
+.container-section4 h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+  text-shadow: 1px 1px 2px black;
+  padding-bottom: 20px;
+}
+
+.container-section4 a:link,
+.container-section4 a:visited {
+  text-decoration: none;
+  background-color: red;
+  color: white;
+  padding: 14px 30px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.container-section4 a:hover {
+  background-color: blue;
 }
