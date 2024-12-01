@@ -175,6 +175,7 @@ h1 {
 #section6 {
   display: flex; /* Enable flexbox */
   justify-content: center; /* Center horizontally */
+  padding-bottom: 200px;
 }
 
 .grid-container {
@@ -218,4 +219,68 @@ h1 {
   grid-row-end: 5;
   grid-column-start: 2;
   grid-column-end: 3;
+}
+
+/* SECTION 7 */
+
+#section7 {
+  display: flex; /* Enable flexbox */
+  justify-content: center; /* Center horizontally */
+  padding-bottom: 200px;
+}
+
+.grid-container-section7 {
+  /* background-color: black; */
+  width: 1220px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content h1 {
+  padding-bottom: 30px;
+}
+
+.div-content {
+  padding-top: 30px;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  opacity: 0.3;
+}
+
+#section8 {
+  /* height: 1220px; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 200px;
+}
+
+.team img {
+  width: 200px;
+}
+
+.team {
+  padding-top: 30px;
+  display: flex;
+  gap: 80px;
+}
+
+.team h2 {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.team p {
+  color: gray;
 }
