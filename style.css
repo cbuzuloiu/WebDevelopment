@@ -98,7 +98,8 @@ h1 {
 
 /* SECTION 2 */
 
-#section2 {
+#section2,
+#section5 {
   padding-left: 25%;
   padding-right: 25%;
   padding-top: 100px;
@@ -167,4 +168,54 @@ h1 {
 
 .container-section4 a:hover {
   background-color: blue;
+}
+
+/* SECTION 6 */
+
+#section6 {
+  display: flex; /* Enable flexbox */
+  justify-content: center; /* Center horizontally */
+}
+
+.grid-container {
+  /* background-color: black; */
+  width: 1220px;
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 300px 300px 300px 300px;
+  gap: 10px;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.item2 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.item4 {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.item5 {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.item6 {
+  grid-row-start: 3;
+  grid-row-end: 5;
+  grid-column-start: 2;
+  grid-column-end: 3;
 }
